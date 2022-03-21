@@ -1,0 +1,6 @@
+spring:
+  config:
+    activate:
+      on-profile: dev
+
+felleskodeverk_uri: https://kodeverk.dev.intern.nav.no

@@ -1,0 +1,9 @@
+spring:
+  config:
+    activate:
+      on-profile: local
+
+felleskodeverk_uri: https://kodeverk.dev.intern.nav.no
+
+server:
+  port: 9081

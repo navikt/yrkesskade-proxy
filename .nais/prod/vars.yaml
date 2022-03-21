@@ -1,7 +1,7 @@
-gcp-cluster: prod-gcp
-max-replicas: 2
-min-replicas: 2
 springProfile: prod
+gcp-cluster: prod-gcp
+min-replicas: 2
+max-replicas: 2
 ingresses:
   - "https://yrkesskade-proxy.intern.nav.no"
   - "https://yrkesskade-proxy.prod-fss-pub.nais.io"

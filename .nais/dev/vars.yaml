@@ -1,7 +1,7 @@
-gcp-cluster: dev-gcp
-max-replicas: 1
-min-replicas: 1
 springProfile: dev
+gcp-cluster: dev-gcp
+min-replicas: 1
+max-replicas: 1
 ingresses:
   - "https://yrkesskade-proxy.dev.intern.nav.no"
   - "https://yrkesskade-proxy.dev-fss-pub.nais.io"

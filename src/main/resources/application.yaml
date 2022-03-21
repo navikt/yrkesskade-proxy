@@ -10,7 +10,7 @@ spring:
         - RewritePath=/(?<base>.*?)/(?<segment>.*), /$\{segment}
       routes:
         - id: felleskodeverk
-          uri: https://kodeverk.dev.intern.nav.no
+          uri: ${felleskodeverk_uri}
           predicates:
             - Path=/kodeverk/**
 
@@ -46,14 +46,4 @@ logging:
       springframework:
         cloud:
           gateway: TRACE
-
----
-
-spring:
-  config:
-    activate:
-      on-profile: local
-
-server:
-  port: 9081
 
