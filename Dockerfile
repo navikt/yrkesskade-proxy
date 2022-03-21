@@ -4,4 +4,4 @@ ENV APPLICATION_NAME=yrkesskade-kodeverk
 ENV APPD_ENABLED=TRUE
 ENV JAVA_OPTS="-Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2"
 
-COPY ./target/yrkesskade-proxy-1.0.0.jar "app.jar"
+COPY ./target/yrkesskade-proxy-1.0.0-SNAPSHOT.jar "app.jar"
