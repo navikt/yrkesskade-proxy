@@ -24,6 +24,9 @@ spec:
   prometheus:
     enabled: true
     path: "/internal/prometheus"
+  azure:
+    application:
+      enabled: true
   accessPolicy:
     inbound:
       rules:
@@ -44,3 +47,4 @@ spec:
   {{#each ingresses as |url|}}
      - {{url}}
   {{/each}}
+  webProxy: true
