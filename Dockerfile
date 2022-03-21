@@ -1,6 +1,6 @@
 FROM navikt/java:11-appdynamics
 
-ENV APPLICATION_NAME=yrkesskade-kodeverk
+ENV APPLICATION_NAME=yrkesskade-proxy
 ENV APPD_ENABLED=TRUE
 ENV JAVA_OPTS="-Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2"
 
