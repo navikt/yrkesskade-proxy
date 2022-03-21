@@ -13,10 +13,6 @@ spring:
           uri: https://kodeverk.dev.intern.nav.no
           predicates:
             - Path=/kodeverk/**
-        - id: vg
-          uri: http://www.vg.no
-          predicates:
-            - Path=/vg/**
 
   security:
     oauth2:
