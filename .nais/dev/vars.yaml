@@ -1,0 +1,7 @@
+gcp-cluster: dev-gcp
+max-replicas: 1
+min-replicas: 1
+springProfile: dev
+ingresses:
+  - "https://yrkesskade-proxy.dev.intern.nav.no"
+  - "https://yrkesskade-proxy.dev-fss-pub.nais.io"

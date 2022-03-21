@@ -1,0 +1,7 @@
+gcp-cluster: prod-gcp
+max-replicas: 2
+min-replicas: 2
+springProfile: prod
+ingresses:
+  - "https://yrkesskade-proxy.intern.nav.no"
+  - "https://yrkesskade-proxy.prod-fss-pub.nais.io"
