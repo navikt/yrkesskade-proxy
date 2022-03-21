@@ -3,6 +3,8 @@ Yrkesskade Proxy
 
 Yrkesskade Proxy tilgjengelig gjør sonekryssing mellom GCP og FSS
 
+[https://docs.nais.io/#clusters]
+
 # Komme i gang
 
 TBD
