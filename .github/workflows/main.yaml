@@ -50,3 +50,17 @@ jobs:
           CLUSTER: dev-fss
           RESOURCE: ./.nais/nais.yaml
           VARS: .nais/dev/vars.yaml
+
+  deploy-to-prod:
+    name: Deploy app to prod
+    needs: build
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: "actions/checkout@v2"
+      - name: Deploy to PROD
+        uses: nais/deploy/actions/deploy@v1
+        env:
+          APIKEY: ${{ secrets.NAIS_DEPLOY_APIKEY }}
+          CLUSTER: dev-fss
+          RESOURCE: ./.nais/nais.yaml
+          VARS: .nais/prod/vars.yaml

@@ -13,7 +13,6 @@ spring:
           uri: ${felleskodeverk_uri}
           predicates:
             - Path=/kodeverk/**
-
   security:
     oauth2:
       resourceserver:
@@ -45,5 +44,5 @@ logging:
     org:
       springframework:
         cloud:
-          gateway: TRACE
+          gateway: INFO
 
