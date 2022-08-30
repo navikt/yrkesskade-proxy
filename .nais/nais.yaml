@@ -34,9 +34,6 @@ spec:
         - application: yrkesskade-kodeverk
           namespace: yrkesskade
           cluster: {{gcp-cluster}}
-        - application: yrkesskade-saksbehandling-backend
-          namespace: yrkesskade
-          cluster: {{gcp-cluster}}
   env:
     - name: SPRING_PROFILES_ACTIVE
       value: {{springProfile}}
