@@ -13,6 +13,10 @@ spring:
           uri: ${felleskodeverk_uri}
           predicates:
             - Path=/kodeverk/**
+        - id: saf
+          uri: ${saf_uri}
+          predicates:
+            - Path=/saf/**
   security:
     oauth2:
       resourceserver:

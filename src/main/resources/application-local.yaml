@@ -1,4 +1,5 @@
 felleskodeverk_uri: https://kodeverk.dev.intern.nav.no
+saf_uri: https://saf-q1.dev.intern.nav.no
 
 server:
   port: 9081
