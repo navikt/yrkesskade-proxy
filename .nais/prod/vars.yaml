@@ -5,3 +5,4 @@ max-replicas: 2
 ingresses:
   - "https://yrkesskade-proxy.intern.nav.no"
   - "https://yrkesskade-proxy.prod-fss-pub.nais.io"
+tenant: nav.no
