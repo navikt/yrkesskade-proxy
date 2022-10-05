@@ -1,3 +1,5 @@
+Repo er flyttet til monorepo for yrkesskade: https://github.com/navikt/yrkesskade
+
 Yrkesskade Proxy
 ================
 
